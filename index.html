@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>La Isla de las Condiciones</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <header>
+    <h1>🌴 La Isla de las Condiciones 🌋</h1>
+    <p>¡Resuelve los acertijos para escapar de la isla!</p>
+  </header>
+
+  <nav>
+    <a href="#intro">Inicio</a>
+    <a href="#teoria">Aprende</a>
+    <a href="#desafios">Desafíos</a>
+    <a href="#logros">Logros</a>
+  </nav>
+
+  <section id="intro">
+    <h2>🌊 Bienvenido a la aventura</h2>
+    <p>Estás atrapado en una isla misteriosa. Para escapar, deberás resolver acertijos usando condicionales en Python. Cada desafío desbloqueará una parte del mapa.</p>
+  </section>
+
+  <section id="teoria">
+    <h2>📘 Aprende sobre condicionales</h2>
+    <p>Un condicional en Python permite ejecutar ciertas instrucciones solo si se cumple una condición:</p>
+    <pre>
+if edad >= 18:
+    print("Eres mayor de edad")
+elif edad >= 13:
+    print("Eres adolescente")
+else:
+    print("Eres niño/a")
+    </pre>
+    <p>Mirá el video explicativo a continuación:</p>
+    <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
+  </section>
+
+  <section id="desafios">
+    <h2>🗝️ Desafíos interactivos</h2>
+    <p>¡Completá los acertijos y desbloqueá tu escape!</p>
+    <div id="desafio1">
+      <h3>Desafío 1: Puerta con contraseña</h3>
+      <iframe src="https://trinket.io/embed/python3/620820273f34?start=result"></iframe>
+      <button onclick="mostrarDesafio(2)">Desbloquear siguiente</button>
+    </div>
+    <div id="desafio2" style="display:none;">
+      <h3>Desafío 2: Elige tu camino</h3>
+      <iframe src="https://trinket.io/embed/python3/fdf3054f8f88"></iframe>
+      <button onclick="mostrarDesafio(3)">Desbloquear siguiente</button>
+    </div>
+    <div id="desafio3" style="display:none;">
+      <h3>Desafío 3: El bote correcto</h3>
+      <iframe src="https://trinket.io/embed/python3/fba22471cdba"></iframe>
+    </div>
+  </section>
+
+  <section id="logros">
+    <h2>🏆 Tus logros</h2>
+    <ul>
+      <li>🔓 Lograste abrir la puerta secreta</li>
+      <li>🧭 Navegaste el camino correcto</li>
+      <li>⛵ Elegiste el bote correcto y escapaste</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Desarrollado por Gabriel Núñez - Licencia CC BY-SA 4.0</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
